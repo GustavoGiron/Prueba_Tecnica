@@ -1,0 +1,11 @@
+index:
+  path: /clientes
+  controller: App\Controller\ClienteController::index
+
+dashboard:
+  path: /dashboard
+  controller: App\Controller\DashboardController::index
+
+login:
+  path: /login
+  controller: App\Controller\SecurityController::login
